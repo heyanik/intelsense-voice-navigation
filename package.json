@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "annyang": "^2.6.1",
+    "audio-recorder-polyfill": "^0.4.1",
+    "audiobuffer-to-wav": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
+    "standardized-audio-context": "^25.3.56",
+    "tachyons": "^4.12.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
