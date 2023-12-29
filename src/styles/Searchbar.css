@@ -43,8 +43,37 @@
 }
 
 .navbar {
+  height: 80px;
   overflow: auto;
   background-color: red;
   border-radius: 0 0 30px 30px;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > h2 {
+  margin: 0 auto;
+}
+
+.navbar > a {
+  position: absolute;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+.page-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
